@@ -1,0 +1,225 @@
+apiVersion: v1
+entries:
+  alertmanager:
+  - apiVersion: v1
+    appVersion: 0.15.1
+    created: 2018-08-23T15:04:21.166012212Z
+    description: Alertmanager instance created by the CoreOS Prometheus Operator
+    digest: 0ed9d67ff4ae172077463e4bade76190ab8cbb361939608a27e4a0382d296ade
+    engine: gotpl
+    home: https://github.com/prometheus/alertmanager
+    keywords:
+    - alertmanager
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: alertmanager
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    - https://github.com/prometheus/alertmanager
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/alertmanager-0.1.7.tgz
+    version: 0.1.7
+  exporter-coredns:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.166484346Z
+    description: A Helm chart for coredns metrics
+    digest: 2a31ef7e760f521f5602aa48ecd1adbea771085b1c432c74cc69337bd8c85061
+    name: exporter-coredns
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-coredns-0.0.3.tgz
+    version: 0.0.3
+  exporter-kube-api:
+  - apiVersion: v1
+    created: 2018-01-03T10:58:02.43112738Z
+    description: A Helm chart for Kubernetes
+    digest: a35b1428abac8825b3c0ff1e5ccd18a01f12eac6dfadbeb2447aa9a0530319b6
+    maintainers:
+    - email: hello@cloudposse.com
+      name: Cloud Posse LLC
+    name: exporter-kube-api
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-kube-api-0.1.1.tgz
+    version: 0.1.1
+  exporter-kube-controller-manager:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.167186578Z
+    description: A Helm chart for Kubernetes
+    digest: 404b871defb699d95aef05a0b9428061fb64fa2a7d46dfdcbfa5cca357714453
+    maintainers:
+    - email: mgoodness@gmail.com
+      name: Michael Goodness
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: exporter-kube-controller-manager
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-kube-controller-manager-0.1.10.tgz
+    version: 0.1.10
+  exporter-kube-dns:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.167722915Z
+    description: A Helm chart singleton for kube-state-metrics
+    digest: e3ea4723e6a08cfaa88444687a8eb7a311398dcd74aaa72e340fd718aa1aab28
+    maintainers:
+    - email: mgoodness@gmail.com
+      name: Michael Goodness
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: exporter-kube-dns
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-kube-dns-0.1.7.tgz
+    version: 0.1.7
+  exporter-kube-etcd:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.168400131Z
+    description: A Helm chart for Kubernetes
+    digest: d792d12a8ab445c910f9a791157e45400d2eadc54ce4e3af01954c9ef95647e6
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: exporter-kube-etcd
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-kube-etcd-0.1.15.tgz
+    version: 0.1.15
+  exporter-kube-scheduler:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.169271095Z
+    description: A Helm chart singleton for kube-state-metrics
+    digest: 47bd102582919c53aa88f3de530aed473f281c2bbcf9eadd9a9af4b67f75e79e
+    maintainers:
+    - email: mgoodness@gmail.com
+      name: Michael Goodness
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: exporter-kube-scheduler
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-kube-scheduler-0.1.9.tgz
+    version: 0.1.9
+  exporter-kube-state:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.169829145Z
+    description: A Helm chart singleton for kube-state-metrics
+    digest: c88624ec35462991a795d327849f8d754be3972b29078e0d4c3b3709d394cf8e
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: exporter-kube-state
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-kube-state-0.2.6.tgz
+    version: 0.2.6
+  exporter-kubelets:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.170088832Z
+    description: A Helm chart for Kubernetes
+    digest: db32c5e1bf4fc3184233eb19ac3df9feccb5e797416ccd9b14fc35697772bb58
+    maintainers:
+    - email: mgoodness@gmail.com
+      name: Michael Goodness
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: exporter-kubelets
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-kubelets-0.2.11.tgz
+    version: 0.2.11
+  exporter-kubernetes:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.170393854Z
+    description: A Helm chart for Kubernetes
+    digest: 301501704edecf18c032169076d0583ed4f6012aa338770bca72f14b5f174ca1
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: exporter-kubernetes
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-kubernetes-0.1.10.tgz
+    version: 0.1.10
+  exporter-node:
+  - apiVersion: v1
+    appVersion: 0.14.0
+    created: 2018-08-23T15:04:21.170798491Z
+    description: A Helm chart for Kubernetes node exporter
+    digest: df021054626a0e448493d4181c0bb5aa0c4ef5a982d83dc7f858068c434f51e5
+    home: https://github.com/prometheus/node-exporter
+    keywords:
+    - node-exporter
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: exporter-node
+    sources:
+    - https://github.com/prometheus/node-exporter
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/exporter-node-0.4.6.tgz
+    version: 0.4.6
+  grafana:
+  - created: 2018-08-23T15:04:21.172198319Z
+    description: Grafana instance for kube-prometheus
+    digest: 0942b9d81711d72f94732d5e4d5caba369a6add96e548765e4326b301972b731
+    engine: gotpl
+    maintainers:
+    - email: weiwei.inf@gmail.com
+      name: Wei Wei
+    - email: vglafirov@gmail.com
+      name: Vladimir Glafirov
+    name: grafana
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/grafana-0.0.37.tgz
+    version: 0.0.37
+  kube-prometheus:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.176798835Z
+    description: Manifests, dashboards, and alerting rules for end-to-end Kubernetes
+      cluster monitoring.
+    digest: b08faf3e24dc1ace9a97a064c5c76ece0fe92f4a9aca9779540ecc76c2fe4541
+    engine: gotpl
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: kube-prometheus
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/kube-prometheus-0.0.105.tgz
+    version: 0.0.105
+  prometheus:
+  - apiVersion: v1
+    created: 2018-08-23T15:04:21.177608687Z
+    description: Prometheus instance created by the CoreOS Prometheus Operator
+    digest: 8a92b5b94c441c791c23592262a0cc1d8e58cbdcb456df931dc15544413335c0
+    engine: gotpl
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: prometheus
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/prometheus-0.0.51.tgz
+    version: 0.0.51
+  prometheus-operator:
+  - apiVersion: v1
+    appVersion: 0.20.0
+    created: 2018-08-23T15:04:21.179045509Z
+    description: Provides easy monitoring definitions for Kubernetes services, and
+      deployment and management of Prometheus instances.
+    digest: c0f44f01a108a16e5407bf36869eca610736cb928ed34c5f838aef004555b57d
+    engine: gotpl
+    home: https://github.com/coreos/prometheus-operator
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: Giancarlo Rubio
+    name: prometheus-operator
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    urls:
+    - https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/prometheus-operator-0.0.29.tgz
+    version: 0.0.29
